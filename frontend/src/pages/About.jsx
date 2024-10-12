@@ -30,22 +30,22 @@ const About = () => {
         <p> WHY <span className='text-gray-700 font-semibold'>CHOOSE US</span></p>
       </div>
 
-      <div className='flex flex-col md:flex-row mb-20'> 
-       <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary text-white transition-all duration-300 text-gray cursor-pointer'>
-       <b>Efficiency:</b>
-       <p> jnwqvnefnjfjknfjnwqvnefnjfjknf </p>
-       </div>
+      {/* Updated 'Why Choose Us' section */}
+      <div className='flex flex-col md:flex-row mb-20 justify-center items-center gap-4'> 
+        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] bg-primary text-white hover:bg-primary-dark transition-all duration-300 text-center cursor-pointer'>
+          <b>Efficiency:</b>
+          <p>We are committed to providing timely and accurate healthcare services that optimize efficiency in every aspect of patient care.</p>
+        </div>
 
-      <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary text-white transition-all duration-300 text-gray cursor-pointer'>
-       <b>Convenience:</b>
-       <p> jnwqvnefnjfjknf jnwqvnefnjfjknf</p>
-       </div>
+        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] bg-primary text-white hover:bg-primary-dark transition-all duration-300 text-center cursor-pointer'>
+          <b>Convenience:</b>
+          <p>Our services are designed with your convenience in mind, offering easy access to care and comprehensive healthcare solutions.</p>
+        </div>
 
-       <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary text-white transition-all duration-300 text-gray cursor-pointer'>
-       <b>Personalization:</b>
-       <p> jnwqvnefnjfjknfjnwqvnefnjfjknf </p>
-       </div> 
-
+        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] bg-primary text-white hover:bg-primary-dark transition-all duration-300 text-center cursor-pointer'>
+          <b>Personalization:</b>
+          <p>At Hospitallo, every patient receives personalized care tailored to their individual health needs and preferences.</p>
+        </div> 
       </div>
     </div>
   )
